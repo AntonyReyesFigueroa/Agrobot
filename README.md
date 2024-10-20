@@ -1,37 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🤖 AgroBot – Monitoreo Agrícola Inteligente
 
-## Getting Started
+AgroBot es un robot diseñado para **optimizar cultivos** mediante **videovigilancia en tiempo real**, **sensores ambientales**, y **machine learning**. Este proyecto busca mejorar la agricultura en **Cajamarca**, permitiendo detectar intrusiones, medir **temperatura y humedad**, y predecir plagas para garantizar la productividad y reducir pérdidas.
 
-First, run the development server:
+## 🚀 Comenzando
+
+Sigue estos pasos para ejecutar el servidor en modo desarrollo:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm run dev  
+# o  
+yarn dev  
+# o  
+pnpm dev  
+Abre http://localhost:3000 en tu navegador para ver la aplicación.
+Puedes comenzar a editar la página modificando app/page.js. Los cambios se aplicarán automáticamente.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌱 Características Principales
+🌡️ Monitoreo de temperatura y humedad
+Sensores que registran datos ambientales en tiempo real para mantener condiciones óptimas en los cultivos.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📹 Videovigilancia en tiempo real
+Cámaras integradas para detectar intrusos y supervisar los cultivos de manera continua.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🧠 IA para predicción de plagas
+Algoritmos de machine learning analizan datos históricos del MINAGRI para anticipar y prevenir plagas.
 
-## Learn More
+🔋 Energía solar para funcionamiento autónomo
+Ideal para zonas rurales sin acceso constante a electricidad, garantizando operación continua del robot.
 
-To learn more about Next.js, take a look at the following resources:
+📦 Tecnologías Utilizadas
+Next.js: Framework para desarrollar la interfaz web.
+Arduino y ESP32: Control del hardware y sensores del AgroBot.
+TensorFlow: IA para la predicción de plagas y optimización de cultivos.
+Vercel: Plataforma para el despliegue rápido y eficiente del proyecto.
+🛠️ Despliegue en Vercel
+Para desplegar esta aplicación, utiliza Vercel.
+Consulta la documentación oficial de Next.js para más información.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📖 Más Información
+Documentación de Next.js – Aprende sobre las características y la API de Next.js.
+Tutorial interactivo de Next.js – Guía práctica para iniciarte en Next.js.
+🎯 Impacto del Proyecto
+AgroBot aborda los desafíos agrícolas en Cajamarca, donde cultivos como papa y café sufren pérdidas de 20% y 30% debido a plagas y condiciones ambientales. Con AgroBot se logra:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Reducción de pérdidas y aumento de eficiencia.
+Optimización en el uso de recursos.
+Mayor sostenibilidad y seguridad alimentaria.
+🧑‍💻 Contribuciones
+¡Las contribuciones son bienvenidas! Si tienes ideas o mejoras, envía un Pull Request para hacer que AgroBot sea aún más eficiente.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Agrobot
+📬 Contacto
+Si tienes preguntas o sugerencias, contáctame a través de mi perfil de GitHub.
+📞 +51 918 320 136
+📞 +51 924 811 558
